@@ -1,0 +1,6 @@
+2024-04-30 13:33:58,196 - ERROR - Invalid Certificate Dates for row: start_date=1900-01-01 00:00:00, end_date=1900-01-01 00:00:00
+2024-04-30 13:33:58,203 - ERROR - Invalid Certificate Dates for row: start_date=1900-01-01 00:00:00, end_date=1900-01-01 00:00:00
+2024-04-30 13:33:58,222 - ERROR - Invalid Certificate Dates for row: start_date=1900-01-01 00:00:00, end_date=1900-01-01 00:00:00
+2024-04-30 13:33:58,230 - ERROR - Invalid Certificate Dates for row: start_date=1900-01-01 00:00:00, end_date=1900-01-01 00:00:00
+2024-04-30 13:33:58,238 - ERROR - Date parsing failed for row: start_date=, end_date=
+2024-04-30 13:33:58,244 - ERROR - Invalid Certificate Dates for row: start_date=1900-01-01 00:00:00, end_date=1900-01-01 00:00:00
