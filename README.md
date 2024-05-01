@@ -6,9 +6,16 @@ As no specific tool was designated for this task, I opted to utilize the **Power
 - [Input Data Folder](rainforest_alliance/input_data): Included RAW given CSV Files, before cleaning
    - [Certificate Holders Data](rainforest_alliance/input_data/certificate_holders_input.csv)
    - [Volume and Crops Data](rainforest_alliance/input_data/volume_and_crops_input.csv)
-- [Input Data Folder](rainforest_alliance/output_data): Included CSV files made by **[app.py]()** for data cleaning
+- [Output Data Folder](rainforest_alliance/output_data): Included CSV files made by **[app.py]()** for data cleaning
    - [Certificate Holders Records validated and ready for analysis](rainforest_alliance/rainforest_alliance/output_data/certificate_holders_validated.csv)
    - [Certificate Holders Records having issue from validation, need to be checked](rainforest_alliance/output_data/certificate_holders_need_check.csv)
+   - [Volume and Crops Records validated and ready for analysis](rainforest_alliance/output_data/volume_and_crops_validated.csv)
+   - [Volume and Crops Records having issue from validation, need to be checked](rainforest_alliance/output_data/volume_and_crops_need_check.csv)
+- [Data Cleaning App](rainforest_alliance/app.py): **Data Cleaning Application** including validation rules
+- [PowerBI-Based Analysis and Visualizations](rainforest_alliance/PowerBIDashboard.pbix): **Data Analysis & Visualizations** are here, using PowerBI.
+- [Jupyter-Based Analysis and Visualizations](rainforest_alliance/analysis.ipynb): ShowOff my Python Data Analysis abilities, using Pandas, NumPy, Seaborn, ScikitLearn, etc
+- [Application Log](rainforest_alliance/app.log): Including issues found during data cleaning
+
 
  
 ## 1. Data Import
