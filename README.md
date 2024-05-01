@@ -1,6 +1,16 @@
-As no specific tool was designated for this task, I opted to utilize the Power BI tool for implementation. You can find the work steps and the project file in this link. If you have any questions, feel free to reach out to me😉
+# Rainforest Alliance Home Task Assignment
 
+As no specific tool was designated for this task, I opted to utilize the **PowerBI** for data analysis and visualization, and **Python** for data cleaning. Also, I did some analysis and data visualizations using **Jupyter Notebooks**, not as primary analysis approach but for show off my abilities 😎. You can find the work steps and the project file in this link. If you have any questions, feel free to reach out to me 😉
 
+## 0. Repository Structure
+- [Input Data Folder](rainforest_alliance/input_data): Included RAW given CSV Files, before cleaning
+   - [Certificate Holders Data](rainforest_alliance/input_data/certificate_holders_input.csv)
+   - [Volume and Crops Data](rainforest_alliance/input_data/volume_and_crops_input.csv)
+- [Input Data Folder](rainforest_alliance/output_data): Included CSV files made by **[app.py]()** for data cleaning
+   - [Certificate Holders Records validated and ready for analysis](rainforest_alliance/rainforest_alliance/output_data/certificate_holders_validated.csv)
+   - [Certificate Holders Records having issue from validation, need to be checked](rainforest_alliance/output_data/certificate_holders_need_check.csv)
+
+ 
 ## 1. Data Import
 
 Import both CSV files into Power BI Desktop.
