@@ -7,7 +7,7 @@ As no specific tool was designated for this task, I opted to utilize the **Power
    - [Certificate Holders Data](rainforest_alliance/input_data/certificate_holders_input.csv)
    - [Volume and Crops Data](rainforest_alliance/input_data/volume_and_crops_input.csv)
 - [Output Data Folder](rainforest_alliance/output_data): Included CSV files made by **[app.py](rainforest_alliance/app.py)** for data cleaning
-   - [Certificate Holders Records validated and ready for analysis](rainforest_alliance/rainforest_alliance/output_data/certificate_holders_validated.csv)
+   - [Certificate Holders Records validated and ready for analysis](rainforest_alliance/output_data/certificate_holders_validated.csv)
    - [Certificate Holders Records having issue from validation, need to be checked](rainforest_alliance/output_data/certificate_holders_need_check.csv)
    - [Volume and Crops Records validated and ready for analysis](rainforest_alliance/output_data/volume_and_crops_validated.csv)
    - [Volume and Crops Records having issue from validation, need to be checked](rainforest_alliance/output_data/volume_and_crops_need_check.csv)
