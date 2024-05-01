@@ -66,7 +66,9 @@ rainforest_alliance/Images/Cleaning/2.png
 
 **Practical Approaches:‌** I deleted those five rows with the year 1900, and one row that was missing both start and end dates.
 
-🚩➡️**Important point: **⬅️🚩
+
+
+## Important point🚩🚩🚩
 
 I could have completed all these steps using Power BI and Power Query, but I chose to automate the validation and data cleaning process for two reasons:
 
@@ -76,8 +78,8 @@ I could have completed all these steps using Power BI and Power Query, but I cho
 
 I wrote a Python script. This script takes two files, "certificate_holders" and "volume_and_crops," as input and checks for Missing Values, Data Formatting, and Consistency. For each input, it provides us with two output files. One file contains valid rows, and the other file contains rows that have been deleted due to not meeting the conditions. Finally, we provided two files containing rows without problems as input to Power BI.
 
-Script File Name: _app.py_ \
-Output Files Location: _output_data_ folder
+- Script File Name: _app.py_ \
+- Output Files Location: _output_data_ folder
 
 This folder is consist of two group files: 
 
