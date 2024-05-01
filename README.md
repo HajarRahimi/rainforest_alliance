@@ -6,7 +6,7 @@ As no specific tool was designated for this task, I opted to utilize the **Power
 - [Input Data Folder](rainforest_alliance/input_data): Included RAW given CSV Files, before cleaning
    - [Certificate Holders Data](rainforest_alliance/input_data/certificate_holders_input.csv)
    - [Volume and Crops Data](rainforest_alliance/input_data/volume_and_crops_input.csv)
-- [Output Data Folder](rainforest_alliance/output_data): Included CSV files made by **[app.py]()** for data cleaning
+- [Output Data Folder](rainforest_alliance/output_data): Included CSV files made by **[app.py](rainforest_alliance/app.py)** for data cleaning
    - [Certificate Holders Records validated and ready for analysis](rainforest_alliance/rainforest_alliance/output_data/certificate_holders_validated.csv)
    - [Certificate Holders Records having issue from validation, need to be checked](rainforest_alliance/output_data/certificate_holders_need_check.csv)
    - [Volume and Crops Records validated and ready for analysis](rainforest_alliance/output_data/volume_and_crops_validated.csv)
@@ -263,14 +263,13 @@ Creating a chart to determine how many certificates are nearing expiration can b
   else "Fresh"
 ```
 
+---
 
-
-## 7. Documentation and Sharing
-
-
-### All steps of the process have been meticulously documented, and the files have been uploaded to my GitHub page at the [this](https://github.com/HajarRahimi) address.
-
-
+## 7. My Challanges
+1. As I didn't have enough information on the data model, I was not 100% sure about data validation rules, uniqueness of keys, or the proper joining way, so I used my own investigation and perceptions on the given data.
+2. I removed some records from the input data for analysis due to issues I assumed were noisy data (dates in weird ranges like the year 1900 or volumes and crops that were orphaned in the certification ID, etc.).
+3. As a data analyst, I need to communicate with stakeholders to provide to-the-point analysis to help them gain better insights, but in an HTA, I didn't have this communication. So, I tried to understand how Rainforest Alliance stakeholders think using existing reports on their website. In real-world work, this would be different.
+4. Choosing the proper tool, I used both PowerBI and Jupyter because I didn't know my client's knowledge and expertise (knowledgeable users will be familiar with Jupyter, and it might be more convenient for them, while more business users might prefer to deal with PowerBI).
 
 ## 8. Question from stakeholders
 
