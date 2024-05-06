@@ -44,7 +44,7 @@ I used Power Query Editor to identify and handle missing values. During the init
 To identify duplicate rows in each table, I created a new tab named "Data Cleaning" in Power BI. I calculated the total number of rows and the unique number of each ID (Certificate Holder ID and Certificate ID). I observed that there are 4 duplicate values in the "Volume and crops" table. To find the values that were repeated, I used the Group By transformation in Power Query Editor grouped the data by the primary key column, and counted the number of occurrences of each value. I found four "Certificate IDs" that were repeated two times.
 
 
-![ScreenShot CustomerInfo](rainforest_alliance/Images/Cleaning/2.png)
+![ScreenShot CustomerInfo](rainforest_alliance/Images/Cleaning/1.png)
 
 **Practical Approaches**: To address this issue, I need to first consult with the stakeholders and inquire whether two types of crops can belong to the same Certificate ID. Since I don't have the answer to this question, I've decided not to make any changes in this section for now.
 
@@ -70,7 +70,7 @@ At first glance, I observed that the majority of values in the “Certificate ID
 
 Some numerical values ​​in the "Estimated harvested volume" column in the "Volume and crops" table have one decimal digit, some have two decimal digits, and some have no decimal digit. 
 
-rainforest_alliance/Images/Cleaning/5.png
+![ScreenShot CustomerInfo](rainforest_alliance/Images/Cleaning/5.png)
 
 **Practical Approaches:‌** Initially, I attempted to identify the predominant decimal format. Since most values contain no decimal digits, I rounded decimal digits to whole numbers.
 
@@ -79,7 +79,7 @@ rainforest_alliance/Images/Cleaning/5.png
 
 I checked the accuracy of the two columns "Certificate Start Date" and "Certificate End Date." I found that five rows of data have the year 1900, which is much earlier than when the Rainforest Alliance was established. Additionally, one of the rows did not have the start and end dates of validity. It was also important to check the dates logically, making sure that, for example, the end date of the certificate isn't before the start date of the certificate.
 
-rainforest_alliance/Images/Cleaning/2.png
+![ScreenShot CustomerInfo](rainforest_alliance/Images/Cleaning/2.png)
 
 **Practical Approaches:‌** I deleted those five rows with the year 1900, and one row that was missing both start and end dates.
 
